@@ -1,0 +1,79 @@
+body {
+	font-family: IBM Plex Mono;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-kerning: normal;
+	line-height: 1.5;
+	font-size: 1rem;
+	background-color: #004d96;
+	color: gold;
+}
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 5px;
+	color: gold;
+}
+
+h1:hover {
+	color: purple;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #665757;
+}
+section {
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.kobe-1 {
+	background-image: url("kobe1.jpeg");
+}
+.kobe-2 {
+	background-image: url("kobe2.jpeg");
+}
+.kobe-4 {
+	background-image: url("kobe4.jpeg");
+}
+.kobe-3 {
+	background-image: url("kobe5.jpeg");
+}
+.kobe-5 {
+	background-image: url("kobe7.webp");
+}
+.kobe-6 {
+	background-image: url("kobe8.webp");
+}
+.kobe-7 {
+	background-image: url("kobe3.jpeg");
+}
+.kobe-8 {
+	background-image: url("kobe9.webp");
+}
+.kobe-9 {
+	background-image: url("kobe10.jpeg");
+}
+
+
+header {
+	position: fixed;
+	top: 30px;
+	left: 40px;
+}
+
+footer {
+	position: fixed;
+	bottom: 20px;
+	left: 40px;
+}
+
+footer a {
+	margin-right: 5px;
+}
